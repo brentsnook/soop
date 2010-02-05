@@ -1,0 +1,28 @@
+- basic setup [ ]
+  - add plugin skeleton
+  - add rspec as dev dependency
+
+- drive basic mixing behaviour from config API [ ][ ][ ][ ]
+  Layers.layer Core, :with => [Presentation]
+  - handle
+    - target object not a Module
+    - mixed object not a module
+    - no :with specified
+  
+---- Friday 
+
+- distribute [ ][ ]
+  - readme
+    - how to use included callback to add class methods
+  - gemspec
+  
+- announce Twitter, LRUG, RORO [ ]
+- presentation [ ][ ][ ][ ]
+
+---- Tuesday
+
+- extract as gem [ ]
+- blog post [ ][ ]
+- allow single layer to be passed instead of array
+- allow single class to be decorated
+- provide convenience methods for included callback OR find ClassMethods module under Cat
