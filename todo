@@ -2,12 +2,16 @@
   - add plugin skeleton
   - add rspec as dev dependency
 
-- drive basic mixing behaviour from config API [x][ ][ ][ ]
+- drive basic mixing behaviour from config API [x][x][x][x]( )( )( )
   Layers.layer Core, :with => [Presentation]
   - handle
     - target object not a Module
     - mixed object not a module
     - no :with specified
+    - make sure loaded class is to be mixed
+    - make sure base is a module
+    - make sure mixin is a module
+    - handle there not being a corresponding mixin module defined
     
 - test with prod configuration and active record objects []
 
