@@ -1,4 +1,4 @@
-- basic setup [ ]
+--- basic setup [x]
   - add plugin skeleton
   - add rspec as dev dependency
 
@@ -8,21 +8,19 @@
     - target object not a Module
     - mixed object not a module
     - no :with specified
-  
----- Friday 
+    
+- test with prod configuration and active record objects []
 
 - distribute [ ][ ]
   - readme
     - how to use included callback to add class methods
-  - gemspec
-  
-- announce Twitter, LRUG, RORO [ ]
-- presentation [ ][ ][ ][ ]
+  - what else?
 
 ---- Tuesday
 
 - extract as gem [ ]
 - blog post [ ][ ]
+- announce Twitter, LRUG, RORO [ ]
 - allow single layer to be passed instead of array
 - allow single class to be decorated
 - provide convenience methods for included callback OR find ClassMethods module under Cat
