@@ -2,7 +2,7 @@
   - add plugin skeleton
   - add rspec as dev dependency
 
-- drive basic mixing behaviour from config API [ ][ ][ ][ ]
+- drive basic mixing behaviour from config API [x][ ][ ][ ]
   Layers.layer Core, :with => [Presentation]
   - handle
     - target object not a Module
@@ -16,7 +16,7 @@
     - how to use included callback to add class methods
   - what else?
 
----- Tuesday
+--- Later
 
 - extract as gem [ ]
 - blog post [ ][ ]
