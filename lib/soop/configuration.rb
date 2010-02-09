@@ -9,7 +9,8 @@ module Soop
       singleton.send method, *args, &block  
     end
      
-    def add target_module, mixin_modules
+    def add target_module, options
+      mixin_modules = options[:with]
       @targets[target_module] = mixin_modules
     end
     
@@ -19,10 +20,6 @@ module Soop
     
     def mixin_modules_for target
       @targets[target.parent] || []
-    end
-    
-    def has_mixins? target
-      mixin_modules_for(target).size > 0
     end
     
     private

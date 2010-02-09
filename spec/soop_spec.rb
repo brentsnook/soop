@@ -21,7 +21,7 @@ describe Soop do
   end
   
   it "can mix classes as they're loaded by ActiveSupport" do
-    Soop.mix_on_active_support_load!
+    Soop::ActiveSupportHook.activate!
     Soop.mix UnloadedCore, :with => [UnloadedPresentation]
   
     UnloadedCore::Cat.new.should respond_to(:added_method)

@@ -2,20 +2,13 @@
   - add plugin skeleton
   - add rspec as dev dependency
 
-- test with prod configuration and active record objects [ ]
-  - console
-  - rails app (create prod database)
-
 - drive basic mixing behaviour from config API [x][x][x][x](x)( )( )
-  - handle
-    - target object not a Module
-    - mixed object not a module
-    - no :with specified
-    - make sure loaded class is to be mixed
-    - make sure base is a module
-    - make sure mixin is a module
-    - handle there not being a corresponding mixin module defined
+  - implement all pending specs
 
+- test with prod configuration and active record objects [ ]
+	  - console
+	  - rails app (create prod database)
+	
 - distribute [ ]
   - readme
     - how to use included callback to add class methods
@@ -23,9 +16,10 @@
 
 --- Later
 
-- extract as gem [ ]
-- blog post [ ][ ]
-- announce Twitter, LRUG, RORO [ ]
-- allow single layer to be passed instead of array
-- allow single class to be decorated
-- provide convenience methods for included callback OR find ClassMethods module under Cat
+	- extract as gem [ ]
+	- blog post [ ][ ]
+	- announce Twitter, LRUG, RORO [ ]
+	- allow single layer to be passed instead of array
+	- allow single class to be decorated
+	- provide convenience methods for included callback OR find ClassMethods module under Cat
+	- find a way to test rails initializer
