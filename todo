@@ -2,8 +2,11 @@
   - add plugin skeleton
   - add rspec as dev dependency
 
-- drive basic mixing behaviour from config API [x][x][x][x]( )( )( )
-  Layers.layer Core, :with => [Presentation]
+- test with prod configuration and active record objects [ ]
+  - console
+  - rails app (create prod database)
+
+- drive basic mixing behaviour from config API [x][x][x][x](x)( )( )
   - handle
     - target object not a Module
     - mixed object not a module
@@ -12,10 +15,8 @@
     - make sure base is a module
     - make sure mixin is a module
     - handle there not being a corresponding mixin module defined
-    
-- test with prod configuration and active record objects []
 
-- distribute [ ][ ]
+- distribute [ ]
   - readme
     - how to use included callback to add class methods
   - what else?
