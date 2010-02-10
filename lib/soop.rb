@@ -15,7 +15,7 @@ module Soop
   end
   
   def self.mix!
-    Mixer.mix!
+    Mixer.mix! Configuration.singleton
   end
   
 end

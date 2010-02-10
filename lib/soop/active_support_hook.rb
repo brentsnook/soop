@@ -17,7 +17,7 @@ module Soop
 
     def load_missing_constant_with_mix(from_mod, const_name)
       target = load_missing_constant_without_mix(from_mod, const_name)
-      Soop::Mixer.mix_target target
+      Soop::Mixer.mix_target target, Soop::Configuration.singleton
       target
     end
   end

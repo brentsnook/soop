@@ -11,7 +11,8 @@ module Soop
      
     def add target_module, options
       mixin_modules = options[:with]
-      @targets[target_module] = mixin_modules
+      mixin_modules = [mixin_modules] if mixin_modules and !mixin_modules.is_a?(Array)
+      @targets[target_module] = mixin_modules if mixin_modules and target_module.is_a?(Module)
     end
     
     def target_modules
@@ -21,9 +22,7 @@ module Soop
     def mixin_modules_for target
       @targets[target.parent] || []
     end
-    
-    private
-    
+
     def self.singleton
       @singleton = Configuration.new unless defined? @singleton
       @singleton 
