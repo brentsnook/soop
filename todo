@@ -1,9 +1,3 @@
-
-- distribute [ ]
-  - description and homepage on github
-  - readme
-    - how to use included callback to add class methods
-  
 - drive basic mixing behaviour from config API [x][x][x][x](x)(x)( )
   - implement all pending specs
 	
