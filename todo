@@ -1,15 +1,13 @@
 
-- drive basic mixing behaviour from config API [x][x][x][x](x)( )( )
-  - implement all pending specs
-
-- test with prod configuration and active record objects [ ]
-	  - console
-	  - rails app (create prod database)
-	
 - distribute [ ]
+  - description and homepage on github
   - readme
     - how to use included callback to add class methods
-  - what else?
+  
+- drive basic mixing behaviour from config API [x][x][x][x](x)(x)( )
+  - implement all pending specs
+	
+- run through presentation
 
 --- Later
 
@@ -20,3 +18,11 @@
 	- allow single class to be decorated
 	- provide convenience methods for included callback OR find ClassMethods module under Cat
 	- find a way to test rails initializer
+	- find a way to test ActiveRecord hook
+	
+	
+	
+	
+	
+	
+	
